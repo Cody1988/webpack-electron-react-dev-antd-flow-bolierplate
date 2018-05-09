@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "stage-3",
+    "flow",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-es2015-destructuring",
+    ["import",{
+      "libraryName": "antd",
+      "style": true
+    }]
+  ]
+}

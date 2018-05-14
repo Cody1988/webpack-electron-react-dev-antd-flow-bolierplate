@@ -12,5 +12,12 @@
       "libraryName": "antd",
       "style": true
     }]
-  ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
 }

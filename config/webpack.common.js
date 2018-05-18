@@ -35,6 +35,7 @@ function cssRule() {
         loader: 'css-loader',
         options: {
           minimize: true,
+          modules: true
         }
       }]
     }) : [{
@@ -43,6 +44,7 @@ function cssRule() {
       loader: 'css-loader',
       options: {
         minimize: true,
+        modules: true
       }
     },{
       loader: 'less-loader',
